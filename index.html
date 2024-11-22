@@ -8,9 +8,11 @@
 <body>
     <section id="expenses-section">
         <h2>Expenses Tracker</h2>
-        <form action="#">
-            <label for="expense">Expense:</label>
+        <form itemref="expense-form" action="#">
+            <label for="expense-name">Expense:</label>
             <input id="expense" type="text">
+            <label for="expense-ammount"></label>
+            <input id="expense-ammount" type="text">
             <label for="time">Time of expense:</label>
             <input id="time" type="text">
             <label for="date-box">Date of expense:</label>
@@ -18,10 +20,10 @@
             <label for="submit-button"></label>
             <input id="submit-button" type="submit" >
         </form>
-        <table id="expenses table">
+        <table id="expense-table">
 
         </table> 
     </section>
-
+    <script src="script.js"></script>
 </body>
 </html>
